@@ -1,0 +1,48 @@
+body {
+    display:flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+.logo {
+    color: rebeccapurple;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+     
+}
+
+.footer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.right-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+a {
+    text-decoration: none;
+    
+}

@@ -2,25 +2,32 @@ body {
     display:flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    justify-content:center;
 }
 
 .logo {
     color: rebeccapurple;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 900;
     font-style: italic;
+    color: #F9FAF8
+
 }
 
-.header {
+.header, .footer {
     display:flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #1F2937;
+    padding: 8px;
+    color: #F9FAF8;
      
 }
 
+
 .footer {
-    display:flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -29,13 +36,11 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 8px;
+    font-size: 18px;
+    color: #F9FAF8;
+
 }
 
-.container {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-}
 
 ul {
     list-style-type: none;
@@ -46,3 +51,92 @@ a {
     text-decoration: none;
     
 }
+
+.content-one {
+    display: flex;
+    font-size: 36px;
+    font-weight: 500;
+    background-color: #F9FAF8;
+    justify-content: space-around;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    flex-shrink: 0;
+    padding: 20px;
+}
+
+.content-one img {
+
+    max-width: 1000px;
+    max-height: 500px;
+    padding: 0px;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.info{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+   
+    
+}
+
+.info img {
+
+    width: 200px;
+    height: 200px;
+    flex:1;
+}
+
+#one {
+
+    width: 300px;
+    height: 200px
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    height: 300px;
+    padding:20px;
+
+}
+
+.call-to-action, button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color:white;
+    margin: 50px;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 15px;
+    cursor: pointer;
+
+
+}
+
+.information{
+    display: flex;
+    flex-direction: row;
+}
+
+.reference{
+    text-align: end;
+}
+
